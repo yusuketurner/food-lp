@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>7月の新メニュー | 愛知県産とうもろこし「味来」フェア — 鉄板バル(店名)</title>
+  <meta name="description" content="7月の新メニュー登場。愛知県産とうもろこし「味来」を使った鉄板豚巻、甘えびのタタキ、月替わりアヒージョ。じゅわっと音まで美味しいランチを、LINEでかんたん予約。">
+
+  <!-- ▼ OGP:URL・店名・画像パスは公開時に差し替えてください -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="7月の新メニュー | 愛知県産とうもろこし「味来」フェア">
+  <meta property="og:description" content="切った瞬間、黄金色。じゅわっと音まで美味しい7月の新メニュー、はじまりました。">
+  <meta property="og:image" content="img/menu-butamaki.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Google Fonts:見出し=しっぽり明朝B1 / 本文=Zen角ゴシックNew -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ============ ヘッダー ============ -->
+  <header class="l-header" id="js-header">
+    <div class="l-header__inner">
+      <!-- ★店名ロゴに差し替えてください -->
+      <a href="#top" class="l-header__logo">TEPPAN&nbsp;&amp;&nbsp;BAL<span class="l-header__logo-sub">店名ロゴ</span></a>
+      <nav class="l-header__nav" aria-label="ページ内メニュー">
+        <a href="#menu" class="l-header__link">新メニュー</a>
+        <a href="#monthly" class="l-header__link">7月限定</a>
+        <a href="#share" class="l-header__link">Instagram</a>
+        <a href="#access" class="l-header__link">店舗情報</a>
+      </nav>
+      <!-- ★LINE予約URLに差し替え(例:https://lin.ee/xxxxxxx) -->
+      <a href="https://lin.ee/xxxxxxx" class="c-btn c-btn--line c-btn--sm l-header__cta">LINEで予約</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ ヒーロー:全画面調理動画 ============ -->
+    <section class="p-hero">
+      <div class="p-hero__media" aria-hidden="true">
+        <!--
+          フリー動画素材:Pexels(商用利用可・クレジット表記不要)
+          出典: https://www.pexels.com/video/meat-sizzling-in-hot-oil-4702555/
+          ★公開時は動画をダウンロードして自サーバーに置くことを推奨(video/hero.mp4 など)
+        -->
+        <video class="p-hero__video" autoplay muted loop playsinline preload="metadata"
+               poster="img/menu-butamaki.png">
+          <source src="https://videos.pexels.com/video-files/4702555/4702555-hd_1280_720_29fps.mp4" type="video/mp4">
+        </video>
+        <div class="p-hero__overlay"></div>
+      </div>
+
+      <div class="p-hero__body">
+        <p class="p-hero__eyebrow">7月の新メニュー、はじまりました。</p>
+        <h1 class="p-hero__title">
+          <span class="p-hero__title-line">夏を、</span>
+          <span class="p-hero__title-line">鉄板で鳴らす。</span>
+        </h1>
+        <p class="p-hero__lead">
+          愛知県産とうもろこし「味来」の甘みを、<br>
+          じゅわっと音のごちそうと一緒に。
+        </p>
+        <div class="p-hero__actions">
+          <!-- ★LINE予約URLに差し替え -->
+          <a href="https://lin.ee/xxxxxxx" class="c-btn c-btn--line">LINEでかんたん予約</a>
+          <a href="#menu" class="c-btn c-btn--ghost">新メニューを見る</a>
+        </div>
+      </div>
+
+      <a href="#menu" class="p-hero__scroll" aria-label="メニューへスクロール">
+        <span class="p-hero__scroll-line"></span>scroll
+      </a>
+    </section>
+
+    <!-- ============ リードコピー ============ -->
+    <section class="p-intro">
+      <div class="l-container">
+        <p class="p-intro__copy u-reveal">
+          いつものランチ、そろそろ飽きた。<br>
+          そんな日は、鉄板の音がする店へ。<br>
+          <em>写真より、目の前のほうが映える</em>3皿を用意しました。
+        </p>
+      </div>
+    </section>
+
+    <!-- ============ メニュー ============ -->
+    <section class="p-menu" id="menu">
+      <h2 class="u-visually-hidden">7月の新メニュー</h2>
+
+      <!-- 01 とうもろこしの豚巻 -->
+      <article class="p-dish u-reveal">
+        <figure class="p-dish__media">
+          <img src="img/menu-butamaki.png"
+               alt="とうもろこしの豚巻。鉄板の上でにんにくバジルソースが泡立ち、断面から黄金色のとうもろこしがのぞく"
+               width="1456" height="1092" loading="eager" decoding="async">
+        </figure>
+        <div class="p-dish__body">
+          <p class="p-dish__tag">鉄板で提供</p>
+          <h3 class="p-dish__name">とうもろこしの豚巻<span class="p-dish__name-sub">鉄板にんにくバジルソース</span></h3>
+          <p class="p-dish__price"><span class="p-dish__price-num">1,080</span><span class="p-dish__price-unit">円(税込)</span></p>
+          <p class="p-dish__desc">
+            切った瞬間、黄金色。愛知県産とうもろこし「味来」の粒を豚バラでぎゅっと巻いて、
+            にんにくバジルの鉄板へ。ナイフを入れるたび、じゅわっと音が鳴るご褒美の一皿。
+          </p>
+        </div>
+      </article>
+
+      <!-- 02 甘えびのタタキ -->
+      <article class="p-dish p-dish--reverse u-reveal">
+        <figure class="p-dish__media">
+          <img src="img/menu-amaebi.png"
+               alt="甘えびのタタキ。白い皿にオイルとバルサミコ醤油、ドライトマトが彩りを添え、クロスティーニが2枚のる"
+               width="1456" height="1092" loading="lazy" decoding="async">
+        </figure>
+        <div class="p-dish__body">
+          <p class="p-dish__tag">前菜</p>
+          <h3 class="p-dish__name">甘えびのタタキ<span class="p-dish__name-sub">バルサミコ醤油で</span></h3>
+          <p class="p-dish__price"><span class="p-dish__price-num">880</span><span class="p-dish__price-unit">円(税込)</span></p>
+          <p class="p-dish__desc">
+            ねっとり甘い甘えびに、バルサミコ醤油のキレをひとさじ。
+            カリカリのパンにのせて、ひと口でどうぞ。最初の一皿はこれで決まり。
+          </p>
+        </div>
+      </article>
+
+      <!-- 03 マンスリーアヒージョ -->
+      <article class="p-dish u-reveal" id="monthly">
+        <figure class="p-dish__media">
+          <span class="p-dish__badge">7月限定</span>
+          <img src="img/menu-ahijo.png"
+               alt="愛知県産とうもろこしとラムソーセージのごろごろにんにくアヒージョ。黒いスキレットに輪切りのとうもろこしとソーセージ"
+               width="1456" height="1092" loading="lazy" decoding="async">
+        </figure>
+        <div class="p-dish__body">
+          <p class="p-dish__tag">マンスリー 7月のアヒージョ</p>
+          <h3 class="p-dish__name">愛知県産とうもろこしと<br>ラムソーセージの<br>ごろごろにんにくアヒージョ</h3>
+          <p class="p-dish__price"><span class="p-dish__price-num">1,380</span><span class="p-dish__price-unit">円(税込)</span></p>
+          <p class="p-dish__desc">
+            今月だけの、ごろごろ。「味来」のとうもろこしとラムソーセージを、
+            にんにく香るオイルでぐつぐつと。残ったオイルはパンで最後まで。
+          </p>
+          <p class="p-dish__note">※7月末までの月替わりメニューです</p>
+        </div>
+      </article>
+    </section>
+
+    <!-- ============ シェア導線 ============ -->
+    <section class="p-share" id="share">
+      <div class="l-container u-reveal">
+        <p class="p-share__eyebrow">share</p>
+        <!-- ★ハッシュタグ・アカウント名を差し替えてください -->
+        <h2 class="p-share__title">#味来ごはん<br class="u-sp">で、教えてください。</h2>
+        <p class="p-share__text">
+          鉄板の湯気も、切った断面の黄金色も、動画のほうが伝わります。<br>
+          撮ったら、ハッシュタグをつけてシェア。ストーリーズのメンションも大歓迎です。
+        </p>
+        <a href="https://www.instagram.com/xxxxxxx/" class="c-btn c-btn--ghost" target="_blank" rel="noopener">Instagramをフォロー</a>
+      </div>
+    </section>
+
+    <!-- ============ 予約クロージング ============ -->
+    <section class="p-closing">
+      <div class="l-container u-reveal">
+        <h2 class="p-closing__title">今日のランチ、<br class="u-sp">決まりましたか?</h2>
+        <p class="p-closing__text">窓口はLINEひとつ。24時間いつでも、3タップで予約できます。</p>
+        <div class="p-closing__actions">
+          <!-- ★LINE予約URL・電話番号に差し替え -->
+          <a href="https://lin.ee/xxxxxxx" class="c-btn c-btn--line c-btn--lg">LINEでかんたん予約</a>
+          <a href="tel:0000000000" class="c-btn c-btn--ghost c-btn--lg">電話で予約する</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 店舗情報 ============ -->
+    <section class="p-access" id="access">
+      <div class="l-container u-reveal">
+        <h2 class="p-access__title">店舗情報</h2>
+        <!-- ★実際の店舗情報に差し替えてください -->
+        <dl class="p-access__list">
+          <div class="p-access__row"><dt>店名</dt><dd>鉄板バル ○○○(店名)</dd></div>
+          <div class="p-access__row"><dt>住所</dt><dd>〒000-0000 ○○県○○市○○ 0-0-0</dd></div>
+          <div class="p-access__row"><dt>ランチ</dt><dd>11:30 - 14:30(L.O. 14:00)</dd></div>
+          <div class="p-access__row"><dt>ディナー</dt><dd>17:30 - 23:00(L.O. 22:00)</dd></div>
+          <div class="p-access__row"><dt>定休日</dt><dd>不定休</dd></div>
+          <div class="p-access__row"><dt>電話</dt><dd><a href="tel:0000000000">000-000-0000</a></dd></div>
+        </dl>
+      </div>
+    </section>
+  </main>
+
+  <footer class="l-footer">
+    <p class="l-footer__copy"><small>&copy; 2026 TEPPAN &amp; BAL(店名)</small></p>
+  </footer>
+
+  <!-- ============ 追従予約バー(スマホ) ============ -->
+  <div class="p-fixed-cta" id="js-fixed-cta" aria-hidden="true">
+    <a href="https://lin.ee/xxxxxxx" class="c-btn c-btn--line p-fixed-cta__btn">LINEで予約</a>
+    <a href="tel:0000000000" class="c-btn c-btn--ghost p-fixed-cta__btn">電話する</a>
+  </div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
